@@ -23,5 +23,6 @@
   "devDependencies": {
     "@types/node": "^16.11.7",
     "typescript": "^4.4.4"
-  }
+  },
+  "repository": "https://github.com/fish895623/npmtesting"
 }
