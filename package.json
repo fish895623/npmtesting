@@ -1,0 +1,27 @@
+{
+  "name": "fishsysmaker",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "publish": "npm publish",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "fish895623",
+    "email": "dan990429@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  }
+}
